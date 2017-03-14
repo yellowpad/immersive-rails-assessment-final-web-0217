@@ -26,4 +26,4 @@ The app you built on Monday is now functioning great. Stephen just has a few ext
 
 ### Hints / Tips
 
-+ Remember we want to be RESTful. What URL should show info about a particular guest? What URL should show a form to create an appearance? What controller actions are associated?  
++ Remember we want to be RESTful. What URL should we use to display our edit form? What action should be responsible for updating the request?
