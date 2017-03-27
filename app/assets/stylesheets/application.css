@@ -13,3 +13,13 @@
  *= require_tree .
  *= require_self
  */
+
+.fancystuff{
+	padding:20px;
+	border:1px solid #000;
+	background:#F1F1F1;
+	margin:auto;
+	width:80%;
+	margin-bottom:20px;
+
+}

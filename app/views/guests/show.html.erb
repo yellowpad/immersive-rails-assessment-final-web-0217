@@ -1,4 +1,12 @@
 <h1><%= @guest.name %></h1>
 
 <h3><%= @guest.occupation %></h3>
+<% @guest.appearances.each do |a| %>
+	<div class="fancystuff">
+		<h2>Episode Appearance: <%=  link_to a.episode.date, a.episode %></h2>
+		<h3>Episode Rating: <%=  a.rating %></h3>
+		<p>Guest Booked By: <%= a.user.username %></p>
+		<%= link_to "Edit Appearance", edit_appearance_path(a) %>
+	</div>
+<% end %>
 
